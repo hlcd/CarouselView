@@ -179,31 +179,21 @@
 	        <group targetFramework="Xamarin.iOS10">
 	            <dependency id="Xamarin.Forms" version="2.5.0.121934"/>
 	        </group>
-	        <group targetFramework="UAP10">
-	            <dependency id="Xamarin.Forms" version="2.5.0.121934"/>
-	        </group>
 		</dependencies>
     </metadata>
     <files>
         <!-- NetStandard -->
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.Abstractions/bin/Release/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll" target="lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll" />
 
         <!-- PCL -->
-        <file src="lib/Portable/CarouselView.FormsPlugin.Abstractions.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/CarouselView.FormsPlugin.Abstractions.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
 
         <!-- Xamarin.iOS (Unified)-->
-        <file src="lib/CarouselView.FormsPlugin.iOS.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.iOS/bin/iPhone/Release/CarouselView.FormsPlugin.iOS.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.iOS/bin/iPhone/Release/CarouselView.FormsPlugin.Abstractions.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
 
         <!-- Xamarin.Android -->
-        <file src="lib/CarouselView.FormsPlugin.Android.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
-
-        <!-- UWP -->
-        <file src="lib/CarouselView.FormsPlugin.UWP.dll" target="lib/UAP10/CarouselView.FormsPlugin.UWP.dll" />
-        <file src="lib/CarouselView.FormsPlugin.UWP.pri" target="lib/UAP10/CarouselView.FormsPlugin.UWP.pri" />
-        <file src="lib/CarouselView.FormsPlugin.UWP.xr.xml" target="lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml" />
-        <file src="lib/FlipViewControl.xbf" target="lib/UAP10/FlipViewControl.xbf" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.Android/bin/Release/CarouselView.FormsPlugin.Android.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll" />
+        <file src="../CarouselView/CarouselView.FormsPlugin.Android/bin/Release/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
     </files>
 </package>
