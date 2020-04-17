@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CarouselView.FormsPlugin</id>
-        <version>5.2.2-legimi</version>
+        <version>5.2.3-legimi</version>
         <title>CarouselView Control for Xamarin Forms</title>
         <authors>Alex Rainman</authors>
         <owners>Alex Rainman</owners>
@@ -12,6 +12,9 @@
         <description>Create Horizontal and Vertical carousels, add page indicators, navigation arrows and much more. “How to” at Github repository.</description>
         <summary>CarouselView Control for Xamarin Forms</summary>
         <releaseNotes>
+5.2.3
+[iOS] Added null checks in Scroller_Scrolled
+[UWP] Not included in nuget
 5.2.1
 [Android] A usage of the right context.
 5.2.0
